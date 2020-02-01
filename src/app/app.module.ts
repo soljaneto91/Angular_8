@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BranchAComponent } from './branch-a/branch-a.component';
+import { BranchBComponent } from './branch-b/branch-b.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BranchAComponent
+    BranchAComponent,
+    BranchBComponent
   ],
   imports: [
     BrowserModule,
